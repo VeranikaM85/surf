@@ -7,6 +7,12 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
+    <script>
+        history.pushState(null, null, document.location);
+        window.addEventListener('popstate', function () {
+            window.location="https://veranikam85.github.io/surf/dist/";
+        });
+    </script>
 </head>
 <body>
     <header class="header" id="header">
